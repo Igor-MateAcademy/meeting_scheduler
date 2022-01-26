@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/static/css/main.b96c6762.css",
-    "main.js": "/static/js/main.db932f2d.js",
-    "static/media/CanNotSchedule.gif": "/static/media/CanNotSchedule.76ffe4e7bc253b603be7.gif",
-    "static/media/SelectDay.gif": "/static/media/SelectDay.5a6035ad2b50c1ba3f0f.gif",
-    "static/media/logo.png": "/static/media/logo.72f08375e5ca22ee2029.png",
-    "static/media/Roboto-Italic.woff": "/static/media/Roboto-Italic.6760b9882caba55e6586.woff",
-    "static/media/Roboto-Medium.woff": "/static/media/Roboto-Medium.e0d06bcacc8acf27c88d.woff",
-    "static/media/Roboto-Bold.woff": "/static/media/Roboto-Bold.6aaa3218e8557c0fc5c5.woff",
-    "static/media/Roboto-Regular.woff": "/static/media/Roboto-Regular.1b1c1b27df9246c32572.woff",
-    "static/media/Roboto-Italic.woff2": "/static/media/Roboto-Italic.4553844eb5ab5cab1baa.woff2",
-    "static/media/Roboto-Medium.woff2": "/static/media/Roboto-Medium.dfb7546e23a518644010.woff2",
-    "static/media/Roboto-Bold.woff2": "/static/media/Roboto-Bold.e90e27d59d202352d902.woff2",
-    "static/media/Roboto-Regular.woff2": "/static/media/Roboto-Regular.d279345a8478ea3f4e44.woff2",
-    "static/media/404.jpg": "/static/media/404.3883aa86d3eda49d388f.jpg",
-    "static/media/Gibson.woff": "/static/media/Gibson.a87efa5471a04906c95f.woff",
-    "static/media/Gibson.woff2": "/static/media/Gibson.7c64aa346cf7281062ad.woff2",
-    "index.html": "/index.html",
-    "main.b96c6762.css.map": "/static/css/main.b96c6762.css.map",
-    "main.db932f2d.js.map": "/static/js/main.db932f2d.js.map"
+    "main.css": "/meeting_scheduler/static/css/main.eda3721b.css",
+    "main.js": "/meeting_scheduler/static/js/main.13ed29dc.js",
+    "static/media/CanNotSchedule.gif": "/meeting_scheduler/static/media/CanNotSchedule.76ffe4e7bc253b603be7.gif",
+    "static/media/SelectDay.gif": "/meeting_scheduler/static/media/SelectDay.5a6035ad2b50c1ba3f0f.gif",
+    "static/media/logo.png": "/meeting_scheduler/static/media/logo.72f08375e5ca22ee2029.png",
+    "static/media/Roboto-Italic.woff": "/meeting_scheduler/static/media/Roboto-Italic.6760b9882caba55e6586.woff",
+    "static/media/Roboto-Medium.woff": "/meeting_scheduler/static/media/Roboto-Medium.e0d06bcacc8acf27c88d.woff",
+    "static/media/Roboto-Bold.woff": "/meeting_scheduler/static/media/Roboto-Bold.6aaa3218e8557c0fc5c5.woff",
+    "static/media/Roboto-Regular.woff": "/meeting_scheduler/static/media/Roboto-Regular.1b1c1b27df9246c32572.woff",
+    "static/media/Roboto-Italic.woff2": "/meeting_scheduler/static/media/Roboto-Italic.4553844eb5ab5cab1baa.woff2",
+    "static/media/Roboto-Medium.woff2": "/meeting_scheduler/static/media/Roboto-Medium.dfb7546e23a518644010.woff2",
+    "static/media/Roboto-Bold.woff2": "/meeting_scheduler/static/media/Roboto-Bold.e90e27d59d202352d902.woff2",
+    "static/media/Roboto-Regular.woff2": "/meeting_scheduler/static/media/Roboto-Regular.d279345a8478ea3f4e44.woff2",
+    "static/media/404.jpg": "/meeting_scheduler/static/media/404.3883aa86d3eda49d388f.jpg",
+    "static/media/Gibson.woff": "/meeting_scheduler/static/media/Gibson.a87efa5471a04906c95f.woff",
+    "static/media/Gibson.woff2": "/meeting_scheduler/static/media/Gibson.7c64aa346cf7281062ad.woff2",
+    "index.html": "/meeting_scheduler/index.html",
+    "main.eda3721b.css.map": "/meeting_scheduler/static/css/main.eda3721b.css.map",
+    "main.13ed29dc.js.map": "/meeting_scheduler/static/js/main.13ed29dc.js.map"
   },
   "entrypoints": [
-    "static/css/main.b96c6762.css",
-    "static/js/main.db932f2d.js"
+    "static/css/main.eda3721b.css",
+    "static/js/main.13ed29dc.js"
   ]
 }
