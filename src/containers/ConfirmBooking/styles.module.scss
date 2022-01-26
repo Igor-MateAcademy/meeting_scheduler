@@ -1,0 +1,84 @@
+@import '../../sources/styles/extends.scss';
+@import '../../sources/styles/variables.scss';
+
+.confirm {
+  @extend %container-size;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 45px;
+  background-color: $c-white;
+  border-radius: 5px;
+
+}
+
+.info {
+  @extend %align-center;
+  flex-direction: column;
+  padding-top: 152px;
+}
+
+.title {
+  margin-bottom: 16px;
+  font-family: 'Gibson';
+  font-size: 38px;
+  color: $c-darkgrey;
+}
+
+.date {
+  font-size: 26px;
+
+  &_bold {
+    font-weight: bold;
+  }
+}
+
+.timezone {
+  font-size: 20px;
+}
+
+.action {
+  display: flex;
+  justify-content: space-between;
+}
+
+.button {
+  width: 128px;
+  height: 48px;
+  font-family: 'Gibson';
+  font-size: 18px;
+  border: 1px solid $c-darkgrey;
+  border-radius: 3px;
+  text-transform: uppercase;
+  transition: transform $transition-duration;
+
+  &:hover {
+    transform: scale(1.15);
+    cursor: pointer;
+  }
+
+  &_back {
+    background-color: $c-white;
+    color: $c-darkgrey;
+  }
+
+  &_confirm {
+    background-color: $c-darkgrey;
+    color: $c-white;
+  }
+}
+
+.arrow {
+  padding-right: 16px;
+  color: $c-darkgrey !important;
+}
+
+.link {
+  @extend %align-center;
+  height: 100%;
+  color: inherit;
+
+  &:hover {
+    color: inherit;
+  }
+}

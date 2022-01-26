@@ -1,0 +1,63 @@
+@import '../../sources/styles/variables.scss';
+@import '../../sources/styles/extends.scss';
+
+.container {
+  padding: 40px 52px;
+  height: 100%;
+}
+
+.title {
+  margin-bottom: 8px;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 4px;
+}
+
+.duration {
+  margin-bottom: 40px;
+  font-size: 18px;
+  color: $c-caption-text;
+}
+
+.timezone {
+  font-size: 16px;
+  color: $c-caption-text;
+}
+
+.list {
+  padding: 4px 12px;
+  height: 68%;
+  list-style: none;
+  overflow: scroll;
+
+  &_item {
+    width: 100%;
+    height: 48px;
+    margin-bottom: 10px;
+    border: 1px solid $c-available-time-dark-grey;
+    border-radius: 3px;
+    background-color: $c-available-time;
+    font-size: 18px;
+    color: $c-available-time-dark-grey;
+
+    &_disabled {
+      background-color: $c-white;
+    }
+  }
+}
+
+.link {
+  @extend %align-center;
+  height: 100%;
+  color: inherit;
+
+  &:hover {
+    color: inherit;
+  }
+}

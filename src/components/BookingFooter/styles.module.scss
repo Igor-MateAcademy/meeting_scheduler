@@ -1,0 +1,13 @@
+@import '../../sources/styles/variables.scss';
+@import '../../sources/styles/extends.scss';
+
+.footer {
+  @extend %align-center;
+
+  &_text {
+    margin: 76px 0;
+    font-style: italic;
+    font-size: 16px;
+    color: $c-caption-text;
+  }
+}

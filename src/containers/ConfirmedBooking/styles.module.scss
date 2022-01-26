@@ -1,0 +1,26 @@
+@import '../../sources/styles/variables.scss';
+@import '../../sources/styles/extends.scss';
+
+.confirmed {
+  @extend %container-size;
+  @extend %align-center;
+  background-color: $c-white;
+  border-radius: 5px;
+}
+
+.info {
+  @extend %align-center;
+  flex-direction: column;
+}
+
+.icon {
+  margin-bottom: 24px;
+  font-size: 64px;
+  color: $c-lightgreen !important;
+}
+
+.title {
+  font-family: 'Gibson';
+  font-size: 38px;
+  color: $c-darkgrey;
+}

@@ -1,0 +1,40 @@
+@import '../../sources/styles/variables.scss';
+
+.header {
+  display: flex;
+  align-items: center;
+  margin: 36px 0;
+}
+
+.logo {
+  margin-right: 40px;
+  width: 125px;
+  height: 125px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.title {
+  margin-bottom: 4px;
+  font-family: 'Gibson';
+  font-size: 30px;
+  line-height: 30px;
+  color: $c-darkgrey;
+}
+
+.position {
+  margin-bottom: 12px;
+  font-weight: 700;
+  font-size: 16px;
+  color: $c-darkgrey;
+}
+
+.text_tip {
+  font-style: italic;
+  font-size: 18px;
+  color: $c-caption-text;
+} 

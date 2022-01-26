@@ -1,0 +1,57 @@
+@import './variables.scss';
+
+html,
+body,
+.root {
+  display: flex;
+  justify-content: center;
+  font-family: 'Roboto', sans-serif;
+  height: 100%;
+  width: 100%;
+  background-color: $c-lightgrey;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url(../fonts/Roboto-Bold.woff2),
+    url(../fonts/Roboto-Bold.woff);
+  font-style: normal;
+  font-display: swap;
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url(../fonts/Roboto-Italic.woff2),
+    url(../fonts/Roboto-Italic.woff);
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url(../fonts/Roboto-Regular.woff2),
+    url(../fonts/Roboto-Regular.woff);
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url(../fonts/Roboto-Medium.woff2),
+    url(../fonts//Roboto-Medium.woff);
+  font-style: normal;
+  font-display: swap;
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'Gibson';
+  src: url(../fonts/Gibson.woff2),
+    url(../fonts/Gibson.woff);
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+}

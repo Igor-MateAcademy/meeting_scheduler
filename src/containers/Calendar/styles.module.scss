@@ -1,0 +1,127 @@
+@import '../../sources/styles/variables.scss';
+@import '../../sources/styles/extends.scss';
+
+.booking {
+  @extend %container-size;
+  display: flex;
+  flex-direction: row;
+}
+
+.calendar {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 78px;
+  width: 650px;
+  background-color: $c-darkgrey;
+  border-radius: 5px 0 0 5px;
+  box-shadow: 0px 4px 10px rgba(159, 178, 194, 0.2);
+}
+
+.calendar_navigation {
+  @extend %grid-align;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.slider_button {
+  padding: 4px 0;
+  background-color: inherit;
+  border: none;
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.date {
+  grid-column: 2 / 7;
+  font-family: 'Gibson';
+  font-size: 24px;
+  line-height: 24px;
+  color: $c-lightest;
+}
+
+.arrow {
+  color: $c-lightest !important;
+  &_left {
+    grid-column: 1 / 2;
+  }
+
+  &_right {
+    grid-column: 7 / 8;
+  }
+}
+
+.calendar_weekdays {
+  @extend %grid-align;
+  margin-bottom: 32px;
+  font-weight: 700;
+  color: $c-lightest;
+  text-transform: uppercase;
+}
+
+.calendar_days_numbers {
+  @extend %grid-align;
+  grid-row-gap: 40px;
+}
+
+.disabled_day {
+  pointer-events: none;
+  cursor: default;
+}
+
+.calendar_current_days {
+  position: relative;
+  outline: none;
+  border: none;
+  background-color: inherit;
+  font-size: 18px;
+  color: $c-caption-text;
+  transition: transform $transition-duration;
+  cursor: pointer;
+
+  &:hover {
+    transform: scale(1.15);
+  }
+}
+
+.is_active {
+  &:after {
+    content: '';
+    position: absolute;
+    width: 56px;
+    height: 56px;
+    background-color: rgba(196, 196, 196, 0.3);
+    left: 50%;
+    top: -50%;
+    margin-left: -28px;
+    border-radius: 50%;
+  }
+}
+
+.calendar_another_days {
+  pointer-events: none;
+  color: $c-dark-caption-text;
+  cursor: default;
+}
+
+.meetings {
+  background-color: $c-white;
+  flex-grow: 1;
+  min-width: 490px;
+  border-radius: 0 5px 5px 0;
+  box-shadow: 0 4px 10px rgba(159, 178, 194, 0.2);
+}
+
+.loader_container {
+  @extend %align-center;
+  height: 100%;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  max-width: 454px;
+}

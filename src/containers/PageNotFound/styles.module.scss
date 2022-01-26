@@ -1,0 +1,29 @@
+@import '../../sources/styles/extends.scss';
+
+.container {
+  @extend %align-center;
+  position: relative;
+  height: 100%;
+}
+
+.button {
+  @extend %button-background;
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  background-color: transparent;
+  border: none;
+
+  &_red {
+    left: 10%;
+  }
+
+  &_blue {
+    right: 10%;
+  }
+
+  &:hover {
+    border: none;
+    cursor: pointer;
+  }
+}

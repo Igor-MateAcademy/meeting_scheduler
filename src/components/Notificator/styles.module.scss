@@ -1,0 +1,20 @@
+@import '../../sources/styles/extends.scss';
+
+.container {
+  @extend %align-center;
+  flex-direction: column;
+  height: 100%;
+}
+
+.icon {
+  margin-bottom: 24px;
+  width: 256px;
+  height: 256px;
+  border-radius: 5px;
+}
+
+.message {
+  font-size: 24px;
+  text-align: center;
+  padding: 0 24px;
+}

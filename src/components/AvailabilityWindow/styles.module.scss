@@ -1,0 +1,30 @@
+@import '../../sources/styles/variables.scss';
+@import '../../sources/styles/extends.scss';
+
+.range_date {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 10px;
+
+  &_select {
+    width: 10%;
+  }
+
+  &_text {
+    font-size: 16px;
+  }
+
+  &_button {
+    @extend %button-background;
+    transition: transform $transition-duration;
+
+    &:hover {
+      transform: scale(1.15);
+    }
+  }
+
+  &_icon {
+    color: $c-darkgrey !important;
+  };
+}

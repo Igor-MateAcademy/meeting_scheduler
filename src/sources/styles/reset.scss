@@ -1,0 +1,14 @@
+h1,
+h2,
+h3,
+h4,
+button,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+button:disabled {
+  background-color: transparent;
+  border: none;
+}
