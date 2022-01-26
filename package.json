@@ -1,4 +1,5 @@
 {
+  "homepage": "https://Igor-MateAcademy.github.io/meeting_scheduler",
   "name": "meeting_scheduler",
   "version": "0.1.0",
   "private": true,
@@ -30,6 +31,7 @@
     "web-vitals": "^2.1.2"
   },
   "scripts": {
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
